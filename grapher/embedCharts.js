@@ -1,11 +1,11 @@
 
         window.App = {};
-        window.Global = { rootUrl: 'https://mispytest-grapher.netlify.com/grapher' };
+        window.Global = { rootUrl: 'https://danieltest-grapher.netlify.com/grapher' };
 
         var link = document.createElement('link');
         link.type = 'text/css';
         link.rel = 'stylesheet';
-        link.href = 'https://mispytest-grapher.netlify.com/grapher/assets/commons.bundle.2e22f5e69cab1ba9e613.css';
+        link.href = 'https://danieltest-grapher.netlify.com/grapher/assets/commons.bundle.2e22f5e69cab1ba9e613.css';
         document.head.appendChild(link);
 
         var hasPolyfill = false;
@@ -28,12 +28,12 @@
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.onload = checkReady;
-        script.src = 'https://mispytest-grapher.netlify.com/grapher/assets/commons.bundle.2e22f5e69cab1ba9e613.js';
+        script.src = 'https://danieltest-grapher.netlify.com/grapher/assets/commons.bundle.2e22f5e69cab1ba9e613.js';
         document.head.appendChild(script);
 
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.onload = checkReady;
-        script.src = 'https://mispytest-grapher.netlify.com/grapher/assets/charts.bundle.2e22f5e69cab1ba9e613.js';
+        script.src = 'https://danieltest-grapher.netlify.com/grapher/assets/charts.bundle.2e22f5e69cab1ba9e613.js';
         document.head.appendChild(script);
     
